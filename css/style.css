@@ -1,0 +1,214 @@
+@font-face {
+    font-family: "pt_sans_narrowregular";
+   font-style: normal;
+   font-weight: normal;
+   src: url("fonts/ptn57f-webfont.eot?#iefix")
+   format("embedded-opentype"), url("font/ptn57f-webfont.woff") format("woff"), url("font/ptn57f-webfont.ttf") format("truetype");
+  }
+
+
+
+body {
+    
+    padding:11px 0 14px 0;
+	margin:0;
+	background-color:		#f4f4f4;
+	color:#000;
+}
+
+
+.example {     
+    background:#fff;
+    border:1px solid #ccc;
+    cursor:pointer;
+    float:left;
+    margin:5px; padding:20px;
+    width:100px; height:100px;
+}
+
+#overlay {
+    background:rgba(0,0,0,0.3);
+    display:none;
+    width:100%; height:100%;
+    position:absolute; top:0; left:0; z-index:99998;
+}
+
+
+
+#content {
+  	width:981px;
+	margin:0 auto;
+    background-color: 		#ffffff; 
+    height: 800px;
+    
+    
+    margin-bottom: 10px;
+
+    border: 1px solid #d4d4d5;   
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.headline
+{
+    width:600px;
+	margin:0 auto;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-family: "pt_sans_narrowregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    color: #8ebe00;
+}
+span
+{
+    font-family: "pt_sans_narrowregular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #808080;
+}
+.myLightBox
+{
+    width:600px;
+	margin:0 auto;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    
+    
+    
+    
+}
+.test{
+    color : green;
+}
+.caption {
+    position: absolute;
+    color: #FFF;
+    margin: 5px;
+}
+
+.ThumbHolder
+{
+    width:581px;
+    margin:0 auto;
+    height: 80px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.thumb{
+    
+    display: none;
+     
+    float:left;
+  
+
+    
+   
+ 
+}
+.onfocus
+{
+      opacity: 0.8;
+    -webkit-transform: scale(1.2,1.2);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1.2,1.2);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+}
+.onfocusBIG
+{
+      opacity: 1.0;
+    -webkit-transform: scale(1.2,1.2);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1.2,1.2);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+}
+
+.thumb img
+{
+      width: 100px;
+      height: 80px;
+       border:none;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+.myLightBox img
+{
+    border:none;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    border-radius: 8px;
+    color : green;
+    
+}
+
+#instructions
+{
+    width:600px;
+	margin:0 auto;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    font-family: "pt_sans_narrowregular";
+    font-style: normal;
+    font-weight: normal;
+    border-top: 1px solid #f4f4f4;
+    padding :6px;
+   
+    
+    
+}
+#instructions .headline
+{
+   
+    font-size: 25px;
+    color: #8ebe00;
+}
+#instructions .text{
+    
+    font-size: 16px;
+    color: #808080;
+    
+}
+#instructions span{
+    
+    font-size: 14px;
+    color: #808080;
+    
+}
+#instructions .download a
+{
+    border-top: 1px solid #f4f4f4;
+     margin-top: 10px;
+     padding: 6px;
+      color: #8ebe00;
+     
+}
+ul{
+    list-style: circle outside; 
+    
+}
+li
+{
+ position: relative; left: -10px; 
+ line-height:30px;
+}
